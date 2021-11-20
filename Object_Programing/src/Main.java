@@ -31,5 +31,8 @@ public class Main {
 
         Vehicle vehicle = new Vehicle(2020, "abd", true, 89000);
         vehicle.startEngine();
+
+        Audi A5 = new Audi(2020, "A5", true, 50000, Drive.AWD);
+        A5.startEngine();
     }
 }
