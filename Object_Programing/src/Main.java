@@ -26,13 +26,20 @@ public class Main {
 //    }
 //
 
-        Mitsubishi lancer = new Mitsubishi(2014, "lancer", true, 60000, "leather");
-        lancer.startEngine();
+//        Mitsubishi lancer = new Mitsubishi(2014, "lancer", true, 60000, "leather");
+//        lancer.startEngine();
+//
+//        Vehicle vehicle = new Vehicle(2020, "abd", true, 89000);
+//        vehicle.startEngine();
+//
+//        Audi A5 = new Audi(2020, "A5", true, 50000, Drive.AWD);
+//        A5.startEngine();
 
-        Vehicle vehicle = new Vehicle(2020, "abd", true, 89000);
-        vehicle.startEngine();
-
-        Audi A5 = new Audi(2020, "A5", true, 50000, Drive.AWD);
-        A5.startEngine();
+        Cat kot = new Cat();
+        kot.sleep();
+        kot.sound();
+        Dog pies = new Dog();
+        pies.sleep();
+        pies.sound();
     }
 }
